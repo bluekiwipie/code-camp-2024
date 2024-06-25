@@ -42,7 +42,9 @@ h1, h2 {
 .answer-button:hover {
     background-color: #45a049;
 }
-
+.answer-button:active{
+  background-color:blue;
+}
 #submit {
     display: block;
     width: 100%;
