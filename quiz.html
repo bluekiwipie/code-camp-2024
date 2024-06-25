@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>test text</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="quiz-container">
+<h1> Interactive Quiz Trivia</h1>
+
+  <div class="question-container" id="q1">
+  <h3> Which of the following is NOT a fruit? </h3>
+<button class="answer-button" onclick="checkAnswer('q1','a')"> Rhubarb </button> 
+<button class="answer-button" onclick="checkAnswer('q1','b')"> Avocado </button> 
+<button class="answer-button" onclick="checkAnswer('q1','c')"> Tomato </button> 
+<button class="answer-button" onclick="checkAnswer('q1','d')"> Cucumber </button> 
+</div>
+
+  <div class="question-container" id="q2">
+  <h3> What horoscope sign is a fish?</h3> 
+<button class="answer-button" onclick="checkAnswer('q2','a')"> Cancer </button> 
+<button class="answer-button" onclick="checkAnswer('q2','b')"> Aquarius </button> 
+<button class="answer-button" onclick="checkAnswer('q2','c')"> Pisces </button> 
+<button class="answer-button" onclick="checkAnswer('q2','d')"> Sagittarius </button>
+  </div> 
+  
+  <div class="question-container" id="q3">
+<h3> What's the largest US state? (by landmass) </h3>
+<button class="answer-button" onclick="checkAnswer('q3','a')"> Texas </button> 
+<button class="answer-button" onclick="checkAnswer('q3','b')"> Alaska </button> 
+<button class="answer-button" onclick="checkAnswer('q3','c')"> California </button> 
+<button class="answer-button" onclick="checkAnswer('q3','d')"> Florida </button> 
+</div>
+
+<div class="question-container" id="q4">
+<h3> Which of the following flies a green, white, and orange (in that order) tricolor flag? </h3>
+<button class="answer-button" onclick="checkAnswer('q4','a')"> India </button> 
+<button class="answer-button" onclick="checkAnswer('q4','b')"> Ireland </button> 
+<button class="answer-button" onclick="checkAnswer('q4','c')"> Italy </button> 
+<button class="answer-button" onclick="checkAnswer('q4','d')"> Ivory Coast </button>
+  </div>
+  <div class="question-container" id="q5">
+<h3> How long did dinosaurs live on the earth? </h3>
+<button class="answer-button" onclick="checkAnswer('q5','a')"> 50-100 millon years </button> 
+<button class="answer-button" onclick="checkAnswer('q5','b')"> 100-150 million years </button> 
+<button class="answer-button" onclick="checkAnswer('q5','c')"> 150-200 million years </button> 
+<button class="answer-button" onclick="checkAnswer('q5','d')"> 200+ million years </button> <br> <br>
+  </div>
+  
+<button id="submit" onclick="showResults()"> Submit Quiz </button>
+  <div id="results"></div>
+</div>
+</body>
+</html>
